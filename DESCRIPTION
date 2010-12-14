@@ -1,0 +1,17 @@
+Package: surveyor
+Version: 0.0-7
+Date: 2010-12-03
+Title: This is a set of tools for TURF (Total Unduplicated Reach and
+    Frequency) analysis
+Description: This is a set of tools for TURF (Total Unduplicated Reach
+    and Frequency) analysis
+URL:
+Maintainer: Andrie de Vries <apdevries@gmail.com>
+Author: Andrie de Vries <apdevries@gmail.com>
+Depends: R (>= 2.11.0), plyr, ggplot2, reshape2
+Suggests:
+Imports:
+License: GPL (>=2)
+LazyLoad: true
+LazyData: true
+Collate: 'turf.R'
