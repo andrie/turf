@@ -1,17 +1,20 @@
-Package: surveyor
-Version: 0.0-1
-Date: 2010-12-04
-Title: This is a set of tools for TURF (Total Unduplicated Reach and
-    Frequency) analysis
-Description: This is a set of tools for TURF (Total Unduplicated Reach
-    and Frequency) analysis
-URL:
+Package: TURF
+Version: 0.0-02
+Date: 2013-10-29
+Title: Tools for TURF (Total Unduplicated Reach and Frequency) analysis
+Description: Tools for TURF (Total Unduplicated Reach and Frequency) analysis
+URL: 
 Maintainer: Andrie de Vries <apdevries@gmail.com>
 Author: Andrie de Vries <apdevries@gmail.com>
-Depends: R (>= 2.11.0), plyr, ggplot2, reshape2
-Suggests:
+Depends:
+    R (>= 2.11.0)
 Imports:
+    reshape2,
+    ggplot2
 License: GPL (>=2)
 LazyLoad: true
 LazyData: true
-Collate: 'turf.R'
+Collate:
+    'turf.R'
+    'plot.R'
+    'turf-package.R'

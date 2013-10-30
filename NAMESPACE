@@ -1,2 +1,4 @@
 export(turf)
-export(plot_turf)
+export(turfplot)
+import(ggplot2)
+importFrom(reshape2,melt)
